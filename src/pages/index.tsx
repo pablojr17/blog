@@ -1,3 +1,7 @@
 export default function Home() {
-  return <div>Meu blog</div>;
+  return (
+    <div>
+      <h1>Meu blog</h1>
+    </div>
+  );
 }
