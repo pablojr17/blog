@@ -10,7 +10,6 @@ export function Header() {
         <a>
           <Image src={logo} alt="Pablo Gomes Logo" />
         </a>
-
         <nav>
           <Link href="/">
             <a>Home</a>
