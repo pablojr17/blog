@@ -1,0 +1,52 @@
+.contaier {
+  display: block;
+}
+
+.containerHeader {
+  min-height: calc(100vh - 5rem);
+  max-width: 1120px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  img {
+    max-width: 640px;
+  }
+}
+
+.ctaText {
+  max-width: 600px;
+
+  h1 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    font-weight: 900;
+    margin-top: 2.5rem;
+    color: var(--white);
+  }
+
+  h1:after {
+    content: "|";
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca 0.7s infinite;
+  }
+
+  span {
+    font-size: 1rem;
+    line-height: 2.25rem;
+    color: var(--white);
+  }
+
+  button {
+    background-color: var(--green-300);
+    border: 0;
+    padding: 1rem 1.8rem;
+    margin-top: 2.5rem;
+    border-radius: 7px;
+    color: var(--white);
+    font-weight: bold;
+  }
+}

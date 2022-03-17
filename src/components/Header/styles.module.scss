@@ -39,7 +39,7 @@
       }
 
       &.active {
-        color: var(--green-100);
+        color: var(--orange-200);
         font-weight: bold;
       }
     }
@@ -48,15 +48,15 @@
 
 .readyButton {
   margin-left: auto;
-  height: 3rem;
-  border-radius: 3rem;
-  background: var(--green-100);
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  background: var(--green-300);
   border: 0;
   padding: 0 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--gray-900);
+  color: var(--white);
   font-weight: bold;
   transition: filter 0.2s;
 
