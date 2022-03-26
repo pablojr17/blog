@@ -9,7 +9,7 @@ export function FingerPrint() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 5000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -18,7 +18,7 @@ export function FingerPrint() {
       {loading ? (
         <div className={styles.scan}>
           <div className={styles.fingerprint}></div>
-          <h3>Scanning...</h3>
+          <h3>Loading...</h3>
         </div>
       ) : (
         <Image src={EmBreve} alt="Tecnologias" />
