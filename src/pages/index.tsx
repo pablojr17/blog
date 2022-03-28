@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import styles from "../styles/home.module.scss";
@@ -14,23 +15,27 @@ export default function Home() {
       <main className={styles.container}>
         <div className={styles.containerHeader}>
           <section className={styles.ctaText}>
-            <h1>Descrição interessante aqui!</h1>
-            <span>
-              Lorem ipsum, or lipsum as it is sometimes known, is dummy text
-              used in laying out print, graphic or web designs. The passage is
-              attributed to an unknown
-            </span>
-
+            <h1 className={styles.animatee}>HI, I'M PABLO GOMES</h1>
+            <div>
+              <span>
+                Software developer with experience in building ReactJs and React
+                Native projects, specializing in delivering high quality
+                Front-end solutions.
+              </span>
+              <span>• Tools: ReactJS, Next.js, TypeScript, CSS-in-JS</span>
+            </div>
             <a>
               <button>
                 <span>COMEÇAR AGORA</span>
               </button>
             </a>
           </section>
-          <img src="/images/banner.png" alt="Conteúdos Sujeito Programador" />
+          <section className={styles.contentImg}>
+            <img src="/images/eu.jpeg" alt="Conteúdos Sujeito Programador" />
+          </section>
         </div>
 
-        <hr className={styles.divisor} />
+        {/* <hr className={styles.divisor} />
 
         <div className={styles.sectionContent}>
           <section>
@@ -76,7 +81,7 @@ export default function Home() {
               <span>COMEÇAR AGORA!</span>
             </button>
           </a>
-        </div>
+        </div> */}
       </main>
     </>
   );
