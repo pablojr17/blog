@@ -28,7 +28,12 @@ export function Header() {
           </ActiveLink>
         </nav>
 
-        <a className={styles.readyButton} type="button" href="#">
+        <a
+          className={styles.readyButton}
+          type="button"
+          target={`_blank"`}
+          href="https://www.linkedin.com/in/pablo-r-gomes/"
+        >
           CONHECER
         </a>
       </div>

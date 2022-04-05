@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Apaixonado por tecnologia - Pablo Gomes</title>
+        <title>Pablo Gomes</title>
       </Head>
 
       <main className={styles.container}>
@@ -26,7 +26,7 @@ export default function Home() {
             </div>
             <a>
               <button>
-                <span>COMEÇAR AGORA</span>
+                <span>CONHECER AGORA</span>
               </button>
             </a>
           </section>
