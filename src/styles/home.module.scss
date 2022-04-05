@@ -3,7 +3,7 @@
 }
 
 .containerHeader {
-  height: calc(100vh - 8rem);
+  height: calc(100vh - 6rem);
   max-width: 1120px;
   margin: 0 auto;
 
@@ -103,7 +103,8 @@
 
 .nextLevelContent {
   max-width: 1120px;
-  margin: 6rem auto;
+  margin: 0 auto;
+  padding-bottom: 1rem;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -164,7 +165,7 @@
 
     .sectionContent,
     .nextLevelContent {
-      padding: 0 2rem;
+      padding: 2rem;
     }
   }
 }
@@ -173,6 +174,7 @@
   .container {
     .containerHeader {
       flex-direction: column;
+      margin-top: 4rem;
       margin-bottom: 3rem;
 
       button {
@@ -188,6 +190,17 @@
       }
     }
 
+    .contentImg {
+      max-width: 400px;
+
+      img {
+        max-height: 360px;
+        max-width: 400px;
+        border-radius: 16px;
+        box-shadow: 0px 0px 32px var(--green-300);
+      }
+    }
+
     div h2 {
       font-size: 1rem;
     }
@@ -197,7 +210,7 @@
 
       img {
         margin-top: 2rem;
-        max-width: 400px;
+        max-width: 300px;
       }
     }
 

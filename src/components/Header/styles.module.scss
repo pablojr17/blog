@@ -69,14 +69,16 @@
 
 @media (max-width: 870px) {
   .headerContainer {
-    height: 11rem;
+    height: 12rem;
     padding: 0.5rem 0;
   }
 
   .headerContent {
     display: flex;
     flex-direction: column;
-    height: 4rem;
+    padding: 0;
+
+    height: 3rem;
 
     nav {
       display: block;
