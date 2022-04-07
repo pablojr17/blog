@@ -35,19 +35,23 @@ export default function Home() {
           </section>
         </div>
 
-        {/* <hr className={styles.divisor} />
+        <hr className={styles.divisor} />
 
         <div className={styles.sectionContent}>
           <section>
-            <h2>Aprenda a cria aplicativos para android e IOS</h2>
+            <h2>Community Expert.</h2>
             <span>
-              Você vai descobrir o jeito mais moderno de desenvolver app nativos
-              IOS e android
+              Selecionado entre +2000 Devs, para o programa "DioX Squad"
+              promovido pela Digital Innovation One, nessa oportunidade tive
+              acesso a rede global de mentores, onde pude impulsionar minhas o
+              meu desenvolvimento em: Liderança técnica, arquitetura escalável,
+              desenvolvimento ágil, protagonismo, colaboração e transformação
+              socioeconômica.
             </span>
           </section>
 
           <img
-            src="/images/financasApp.png"
+            src="/images/img-dio.jpg"
             alt="Conteudos desenvolvimento de apps"
           />
         </div>
@@ -55,33 +59,34 @@ export default function Home() {
         <hr className={styles.divisor} />
 
         <div className={styles.sectionContent}>
-          <img src="/images/webDev.png" alt="Aprenda criar sistemas web" />
+          <img
+            src="/images/img-agri.png"
+            alt="Conteúdos desenvolvimento de aplicacoes web"
+          />
+
           <section>
-            <h2>Aprenda a cria aplicativos para android e IOS</h2>
+            <h2>1º lugar no Hackthon Agritech.</h2>
             <span>
-              Criar sistemas web é uma das tarefas mais importantes para
-              desenvolvedores.
+              Hackthon Agritech, realizado pela Faeb Senar, juntamente com o
+              Sebrae Bahia.
             </span>
           </section>
         </div>
 
         <div className={styles.nextLevelContent}>
-          <Image src={techsImage} alt="Tecnologias" />
-
+          <Image quality={100} src={techsImage} alt="Tecnologias" />
           <h2>
-            Mais de <span className={styles.alunos}>15 mil</span> alunos já
-            levaram sua carreira ao proximo nivel
+            Mais de <span className={styles.alunos}>4 mil</span> views no
+            Youtube.
           </h2>
           <span>
-            E você vai perder a chance de evoluir de uma vez por todas?
+            Pode não parece muita coisa pra você, mas pra mim é muito
+            importante.
           </span>
-
           <a>
-            <button>
-              <span>COMEÇAR AGORA!</span>
-            </button>
+            <button>IR ATÉ LÁ!</button>
           </a>
-        </div> */}
+        </div>
       </main>
     </>
   );
