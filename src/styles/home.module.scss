@@ -6,7 +6,6 @@
   height: calc(100vh - 6rem);
   max-width: 1120px;
   margin: 0 auto;
-
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -36,7 +35,6 @@
     font-size: 2rem;
     font-family: "Special Elite", monospace;
     font-weight: 900;
-    margin-top: 2.5rem;
     margin-bottom: 1rem;
     white-space: nowrap;
     overflow: hidden;
@@ -72,8 +70,9 @@
 }
 
 .sectionContent {
-  margin: 5.5rem auto;
+  margin: 4rem auto;
   max-width: 1120px;
+  height: calc(100vh - 6rem);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -134,7 +133,8 @@
     background-color: var(--green-300);
     border: 0;
     padding: 1rem 1.8rem;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border-radius: 6px;
     color: var(--white);
     font-weight: bold;

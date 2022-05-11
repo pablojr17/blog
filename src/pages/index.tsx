@@ -24,11 +24,6 @@ export default function Home() {
               </span>
               <span>• Tools: ReactJS, Next.js, TypeScript, CSS-in-JS</span>
             </div>
-            <a>
-              <button>
-                <span>CONHECER AGORA</span>
-              </button>
-            </a>
           </section>
           <section className={styles.contentImg}>
             <img src="/images/eu.jpeg" alt="Conteúdos Sujeito Programador" />
@@ -79,12 +74,12 @@ export default function Home() {
             Mais de <span className={styles.alunos}>4 mil</span> views no
             Youtube.
           </h2>
-          <span>
-            Pode não parece muita coisa pra você, mas pra mim é muito
-            importante.
-          </span>
-          <a>
-            <button>IR ATÉ LÁ!</button>
+          <a
+            href="https://www.youtube.com/channel/UCrtsXqKMFh7CNxmvv1vpiyg"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button>Visitar canal!</button>
           </a>
         </div>
       </main>
