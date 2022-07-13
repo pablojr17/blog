@@ -10,6 +10,10 @@ export default function Home() {
     <>
       <Head>
         <title>Pablo Gomes</title>
+        <meta
+          name="description"
+          content="Web developer page Pablo Gomes, developed in nextJs."
+        />
       </Head>
 
       <main className={styles.container}>

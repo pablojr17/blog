@@ -13,7 +13,11 @@ export default function Posts() {
   return (
     <>
       <Head>
-        <title>Blog - Pablo Gomes</title>
+        <title>Pablo Gomes</title>
+        <meta
+          name="description"
+          content="Web developer page Pablo Gomes, developed in nextJs."
+        />
       </Head>
 
       <main className={styles.container}>
