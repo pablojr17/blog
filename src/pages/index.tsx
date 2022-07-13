@@ -29,9 +29,13 @@ export default function Home() {
               <span>• Tools: ReactJS, Next.js, TypeScript, CSS-in-JS</span>
             </div>
           </section>
-          <section className={styles.contentImg}>
-            <img src="/images/eu.jpeg" alt="Conteúdos Sujeito Programador" />
-          </section>
+          <Image
+            src="/images/eu.jpeg"
+            height={400}
+            width={360}
+            objectFit="contain"
+            alt="Conteúdos Sujeito Programador"
+          />
         </div>
 
         <hr className={styles.divisor} />
