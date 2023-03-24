@@ -6,6 +6,13 @@ import Image from "next/image";
 import techsImage from "../../public/images/techs.svg";
 
 export default function Home() {
+  const texto = "Olá Mundo!\n\nComo vai você?";
+  const whatsappURL = `https://wa.me/?text=${encodeURIComponent(texto)}`;
+
+  function handleClick() {
+    window.location.href = whatsappURL;
+  }
+
   return (
     <>
       <Head>
@@ -18,6 +25,8 @@ export default function Home() {
 
       <main className={styles.container}>
         <div className={styles.containerHeader}>
+          <button onClick={handleClick}>Compartilhar no WhatsApp</button>
+
           <section className={styles.ctaText}>
             <h1 className={styles.animatee}>HI, I'M PABLO GOMES</h1>
             <div>
