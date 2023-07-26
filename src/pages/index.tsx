@@ -79,8 +79,7 @@ export default function Home() {
         <div className={styles.nextLevelContent}>
           <Image quality={100} src={techsImage} alt="Tecnologias" />
           <h2>
-            Mais de <span className={styles.alunos}>4 mil</span> views no
-            Youtube.
+            Conheça meu canal no <span className={styles.alunos}>Youtube</span>.
           </h2>
           <a
             href="https://www.youtube.com/channel/UCrtsXqKMFh7CNxmvv1vpiyg"

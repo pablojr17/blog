@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.contentBtn {
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+.canvas {
+  border-radius: 16px;
+}
+
+.buttonDownload {
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--orange-200);
+  border: 0;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-900);
+  font-weight: bold;
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(110%);
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+  }
+}
+
+.customFileInput {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+
+  /* Estilos de hover para realçar o botão quando o usuário passar o mouse sobre ele */
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+@media (max-width: 870px) {
+  .container {
+    padding: 4px;
+  }
+
+  .canvas {
+    width: 100%;
+  }
+
+  .contentBtn {
+    width: 100%;
+  }
+}
