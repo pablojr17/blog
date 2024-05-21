@@ -25,9 +25,6 @@ export function Header() {
         </ActiveLink>
 
         <div className={styles.content}>
-          <Link href="/paint">
-            <a className={styles.readyButton}>MEU PAINT</a>
-          </Link>
           <a
             className={styles.paint}
             type="button"
@@ -38,7 +35,6 @@ export function Header() {
           </a>
         </div>
       </div>
-      <p className={styles.totalView}>Visitantes: {visitorsCount}</p>
     </header>
   );
 }
